@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/qualit_pop_grp"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/auto_pop"
+            android:title="auto"
+            android:checked="true"/>
+
+        <item android:id="@+id/three60p_pop"
+            android:title="360p"/>
+
+        <item android:id="@+id/four80p_pop"
+            android:title="480p"/>
+
+        <item android:title="720p"
+            android:id="@+id/seven20p_pop"/>
+
+        <item android:id="@+id/ten80p_pop"
+            android:title="1080p"/>
+    </group>
+</menu>

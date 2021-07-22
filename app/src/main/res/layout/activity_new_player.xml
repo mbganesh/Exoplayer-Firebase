@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".NewPlayer">
+
+    <com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+        android:id="@+id/asp_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:resize_mode="fixed_width">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            app:use_controller="true"
+            android:id="@+id/exo_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:controller_layout_id="@layout/exoplayer_controller"
+            app:fastforward_increment="10000"
+            app:hide_on_touch="true"
+            app:player_layout_id="@layout/exo_player_view"
+            app:resize_mode="fixed_width"
+            app:rewind_increment="10000"
+            app:show_timeout="2000">
+<!--            app:use_sensor_rotation="true">-->
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:progressBackgroundTint="#FFFFFF"
+                android:backgroundTint="@color/white"
+                android:visibility="invisible" />
+
+        </com.google.android.exoplayer2.ui.PlayerView>
+    </com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="1.1 Introducation to Complex Numbers"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="In mathematics, a complex number is a number that can be expressed in the form a + bi, where a and b are real numbers, and i is a symbol called the imaginary unit, and satisfying the equation i2 = -1. Complex numbers allow solutions to all polynomial equations, even those that have no solutions in real numbers."
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/takeTestId"
+            android:text="Take Test" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

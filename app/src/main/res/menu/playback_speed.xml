@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/playback_speedMenu"
+        android:checkable="false"
+        android:checked="false"
+        android:title="Playback Speed"/>
+
+    <group android:id="@+id/pbs_id"
+        app:showAsAction="never"
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/zero_point5"
+            android:title="0.5x"/>
+        <item android:id="@+id/zero_point75"
+            android:title="0.75x"/>
+        <item android:id="@+id/normal"
+            android:checked="true"
+            android:title="1x"/>
+        <item android:id="@+id/one_point25"
+            android:title="1.25x"/>
+        <item android:id="@+id/one_point5"
+            android:title="1.5x"/>
+
+    </group>
+
+</menu>

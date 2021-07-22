@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netcom.firebaseexoplayer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GilGal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseExoplayer">
+        <activity android:name=".Bookmark"
+            android:label="Bookmarks"/>
+        <!-- <activity android:name=".SettingsClass"></activity> -->
+        <activity
+            android:name=".NewPlayer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Maths">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".VideoList" />
+        </activity>
+        <activity
+            android:name=".TestPanel"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name=".TestResultActivty" />
+        <activity
+            android:name=".VideoList"
+            android:label="Videos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

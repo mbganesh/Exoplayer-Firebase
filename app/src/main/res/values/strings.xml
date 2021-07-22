@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Video Panel</string>
+    <string name="title_activity_new_player">new_player</string>
+    <string name="answers_heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel dui libero nunc scelerisque est. Consectetur amet senectus pulvinar consequat vel, dictumst amet ultricies proin. Nunc est elit, ac, volutpat ullamcorper diam morbi. Cras malesuada adipiscing semper est euismod nec volutpat facilisis placerat. Non egestas nulla suspendisse ultrices feugiat viverra elit et quam.
+Dis blandit luctus viverra donec ac ultrices. Amet, ultrices consequat tellus, dui orci dictumst aliquam. Mauris, nisl ac integer placerat morbi purus tempus. Et varius mattis at ac nunc sit et praesent. Sagittis nunc.</string>
+
+    <string name="hello_world">Hello Square World!</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

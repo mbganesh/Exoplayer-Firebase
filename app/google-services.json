@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "647207800737",
+    "project_id": "exo-player-b8500",
+    "storage_bucket": "exo-player-b8500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647207800737:android:04df1b9eddce02d1e6c5e0",
+        "android_client_info": {
+          "package_name": "com.netcom.firebaseexoplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647207800737-hbgpegtsqjee7bpkh8bm7km8723k1br3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.netcom.firebaseexoplayer",
+            "certificate_hash": "2adea68767543c33a141df11d3dbb85ca32bd260"
+          }
+        },
+        {
+          "client_id": "647207800737-6t4kjqcf8obuni9qauur1kkbluuk35vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF-QzM-RfoDdH4_c7qG2S2mzC6ZyVGdRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647207800737-6t4kjqcf8obuni9qauur1kkbluuk35vv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
